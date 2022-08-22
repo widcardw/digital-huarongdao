@@ -13,7 +13,6 @@ export default defineConfig({
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
-    extensions: ['.js', '.mjs'],
   },
   plugins: [
     Vue({
@@ -52,6 +51,4 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
   },
-
-  base: '/huarongdao/',
 })
